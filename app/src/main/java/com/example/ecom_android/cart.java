@@ -35,7 +35,7 @@ public class cart extends AppCompatActivity
         Button checkOut =(Button)findViewById(R.id.button2);
 
 
-        productName.setText(values[1]);
+        productName.setText(values[0]);
         quantity.setText("Quantity: "+values[2]);
 
         if(cartPage.getStringExtra("buyType").equals("now"))
