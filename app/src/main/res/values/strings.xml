@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ecom-Android</string>
+    <string name="s2_text">Login Successful</string>
+    <string name="username">admin</string>
+    <string name="login_page">Login Screen</string>
+    <string name="successful_Page">Login Screen</string>
+    <string name="productlist">Product List Screen</string>
+    <string name="Phone_1">Poco C50</string>
+    <string name="Phone_2">OnePlus 9</string>
+    <string name="oneplus9_image_name">oneplus_9</string>
+    <string name="pagename_PLP">PLP</string>
+    <string name="pagename_PDP">PDP</string>
+    <string name="pagename_cart">Cart</string>
+    <string name="pagename_checkout">Checkout</string>
+    <string name="pagename_confirmation">Confirmation</string>
+    <string name="poco_price">$250</string>
+    <string name="oneplus_price">$200</string>
+    <string name="product_view_page">Product View</string>
+</resources>
