@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.adobe.marketing.mobile.MobileCore;
 
@@ -17,6 +19,18 @@ public class confirmation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmation);
+
+        Button button = (Button)(findViewById(R.id.button));
+        Intent goToVideo = new Intent(getApplicationContext(), video_page.class);
+
+        button.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(goToVideo);
+            }
+        });
     }
 
     @Override
